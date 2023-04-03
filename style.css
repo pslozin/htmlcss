@@ -1,0 +1,90 @@
+body {
+    background-image: url("background.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+   }
+
+h1 {
+    vertical-align: middle;
+    color: blue;
+    background-color: rgb(190, 168, 167);
+    text-align: center;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+
+div{
+
+    position: absolute;
+    top: 180px;
+    right: 90px;
+    background-color: rgb(94, 255, 0);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border: 1px; 
+}
+
+div div{
+    background-color: rgb(53, 6, 6);
+    width: 25px;
+    height: 25px;
+}
+
+.id1{
+    background-color: pink;
+    color: purple;
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    border-width: 9px;
+    border-color: rgb(23, 21, 21);
+    border-style:double
+    }
+
+
+.id2{
+    vertical-align: bottom;
+    font-style: italic;
+    background-color: rgb(138, 83, 193);
+    color: purple;
+    position: absolute;
+    top: 390px;
+    left: 370px;
+}
+
+.id3{
+    font-size: larger;
+    background-color: rgb(29, 129, 77);
+    color: rgb(244, 236, 244);
+    position: absolute;
+    top: 290px;
+    left: 870px;
+    border-width: 5px;
+    border-color: red;
+    border-style:double
+    
+}
+
+.id4{
+
+    vertical-align: baseline;
+    background-color: rgb(198, 108, 18);
+    color: purple;
+    position: absolute;
+    top: 90px;
+    left: 1170px;
+}
+
+.withpicture{
+    background-color: aqua;
+    background-size: 200px 200px;
+    background-image: url(flower.jpg);
+
+    position: absolute;
+    top: 90px;
+    left: 570px;
+}
+
